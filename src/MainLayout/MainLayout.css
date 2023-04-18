@@ -1,0 +1,40 @@
+.input_block {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.input_block__label {
+    padding-right: 20px;
+}
+
+.input_block__input {
+    font-size: 20px;
+    font-family: "Palatino Linotype", sans-serif;
+}
+.input_block__input::placeholder {
+    color: red;
+}
+.input_block__button {
+    font-size: 20px;
+    font-family: "Palatino Linotype", sans-serif;
+
+}
+.wrapper {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: start;
+}
+.post_block {
+    max-width: 600px;
+    padding: 15px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 10px;
+    width: 50%;
+}

@@ -1,0 +1,25 @@
+.comments_block__wrapper {
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+.comments_block__title {
+    margin: 0;
+
+}
+.comments_block__title:first-letter{
+    text-transform: uppercase;
+}
+.comments_block__content {
+    margin: 10px 0;
+}
+.comments_block__content:first-letter{
+    text-transform: uppercase;
+}
+.comments_block__mail {
+    margin: 0;
+    font-style: italic;
+    color: darkgrey;
+}

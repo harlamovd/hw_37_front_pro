@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.homework__title{
+  text-align: center;
+  padding-top: 20px;
+
+}
+.homework__name {
+  text-align: center;
+}
+
