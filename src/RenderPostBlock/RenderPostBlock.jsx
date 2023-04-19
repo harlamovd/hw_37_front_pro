@@ -31,7 +31,7 @@ function RenderPostBlock({ article, comments, setComments }) {
         </div>
         <div className="comments_block">
         { comments?
-            /*console.log(comments)*/ < RenderCommentsBlock comment = {comments} /> :
+            < RenderCommentsBlock comment = {comments} /> :
             '' }
         </div>
       </div>
